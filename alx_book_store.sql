@@ -1,8 +1,6 @@
--- Create database
 CREATE DATABASE IF NOT EXISTS alx_book_store;
 USE alx_book_store;
 
--- Authors table (must be created first)
 CREATE TABLE IF NOT EXISTS Authors (
     author_id INT PRIMARY KEY,
     author_name VARCHAR(215)
@@ -36,7 +34,7 @@ CREATE TABLE IF NOT EXISTS Orders (
 
 
 CREATE TABLE IF NOT EXISTS Order_Details (
-    orderdetailid INT PRIMARY KEY,
+    order_details INT PRIMARY KEY,
     order_id INT,
     book_id INT,
     quantity INT,
