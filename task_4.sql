@@ -1,4 +1,5 @@
--- Print full description of books table
+task_4.sql
+-- This SQL script is designed to provide a full description of the 'books' table in the database.
 SELECT 
     COLUMN_NAME AS 'Field',
     COLUMN_TYPE AS 'Type',
