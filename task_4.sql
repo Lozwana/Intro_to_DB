@@ -1,4 +1,4 @@
-task_4.sql
+-- task_4.sql   
 -- This SQL script is designed to provide a full description of the 'books' table in the database.
 SELECT 
     COLUMN_NAME AS 'Field',
@@ -8,6 +8,5 @@ SELECT
     COLUMN_DEFAULT AS 'Default',
     EXTRA AS 'Extra'
 FROM INFORMATION_SCHEMA.COLUMNS 
-WHERE 
-    TABLE_SCHEMA = DATABASE() 
-    AND TABLE_NAME = 'books';
+
+WHERE TABLE_NAME = 'Books';
