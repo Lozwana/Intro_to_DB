@@ -1,3 +1,5 @@
+-- task_5.sql
+-- This SQL script is designed to insert a new row into the 'Customers' table in the database.
 INSERT INTO Customers (
     customer_id,
     customer_name,
